@@ -59,7 +59,7 @@ class Config:
 
     # Partial Training을 위한 파라미터
     TASKS = ['captioning', 'vqa', 'math_reasoning', 'summarization', 'text_qa']
-    SUBSAMPLE_FRAC = 0.005   # 각 task별 10%만 학습
+    SUBSAMPLE_FRAC = 0.1   # 각 task별 10%만 학습
     SEED = 42              # 재현 가능성 확보용 시드
 
     # PEFT (LoRA) 설정
